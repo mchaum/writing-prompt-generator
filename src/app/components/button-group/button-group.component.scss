@@ -1,0 +1,12 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
