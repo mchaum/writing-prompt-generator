@@ -6,7 +6,72 @@
 }
 
 button {
-    padding: 10px 15px;
-    font-size: 1rem;
+    color: #fff;
+    background-color: #6abc3a;
+    padding: 15px 40px 15px 40px;
+    margin: 10px;
+    font-size: 14px;
+    font-family: "Press Start 2P", system-ui;
+    border: 0;
+    box-shadow: 0px 5px black, 0px -5px black, 5px 0px black, -5px 0px black, 0px 10px #00000038, 5px 5px #00000038, -5px 5px #00000038, inset 0px 5px #ffffff36;
     cursor: pointer;
+}
+
+button:active {
+    transform: translateY(5px);
+    box-shadow: 0px 5px black, 0px -5px black, 5px 0px black, -5px 0px black, inset 0px 5px #00000038;
+}
+
+.a1 {
+    background-color: #f1d2cd;
+    box-shadow: 0px 5px #dba0ba, 0px -5px #dba0ba, 5px 0px #dba0ba, -5px 0px #dba0ba, 0px 10px #00000038, 5px 5px #00000038, -5px 5px #00000038, inset 0px 5px #ffffff36;
+}
+
+.a1:active {
+    transform: translateY(5px);
+    box-shadow: 0px 5px #dba0ba, 0px -5px #dba0ba, 5px 0px #dba0ba, -5px 0px #dba0ba, inset 0px 5px #ffffff36;
+}
+
+.a2 {
+    background-color: #c9e5d7;
+    box-shadow: 0px 5px #92c8b2, 0px -5px #92c8b2, 5px 0px #92c8b2, -5px 0px #92c8b2, 0px 10px #00000038, 5px 5px #00000038, -5px 5px #00000038, inset 0px 5px #ffffff36;
+}
+
+.a2:active {
+    transform: translateY(5px);
+    box-shadow: 0px 5px #b3decb, 0px -5px #b3decb, 5px 0px #b3decb, -5px 0px #b3decb, inset 0px 5px #ffffff36;
+}
+
+.a3 {
+    background-color: #c6dcf1;
+    box-shadow: 0px 5px #8bc1d6, 0px -5px #8bc1d6, 5px 0px #8bc1d6, -5px 0px #8bc1d6, 0px 10px #00000038, 5px 5px #00000038, -5px 5px #00000038, inset 0px 5px #ffffff36;
+}
+
+.a3:active {
+    transform: translateY(5px);
+    box-shadow: 0px 5px #aecee3, 0px -5px #aecee3, 5px 0px #aecee3, -5px 0px #aecee3, inset 0px 5px #ffffff36;
+}
+
+.a4 {
+    background-color: #dbbedc;
+    box-shadow: 0px 5px #bb94bf, 0px -5px #bb94bf, 5px 0px #bb94bf, -5px 0px #bb94bf, 0px 10px #00000038, 5px 5px #00000038, -5px 5px #00000038, inset 0px 5px #ffffff36;
+}
+
+.a4:active {
+    transform: translateY(5px);
+    box-shadow: 0px 5px #d3b1d2, 0px -5px #d3b1d2, 5px 0px #d3b1d2, -5px 0px #d3b1d2, inset 0px 5px #ffffff36;
+}
+
+.a5 {
+    background-color: #f5e399;
+    box-shadow: 0px 5px #e3c44b, 0px -5px #e3c44b, 5px 0px #e3c44b, -5px 0px #e3c44b, 0px 10px #00000038, 5px 5px #00000038, -5px 5px #00000038, inset 0px 5px #ffffff36;
+}
+
+.a5:active {
+    transform: translateY(5px);
+    box-shadow: 0px 5px #e8d674, 0px -5px #e8d674, 5px 0px #e8d674, -5px 0px #e8d674, inset 0px 5px #ffffff36;
+}
+
+body {
+    background: black;
 }

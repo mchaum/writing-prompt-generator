@@ -18,8 +18,8 @@ export class ButtonGroupComponent {
     this.promptService.generateWhere();
   }
 
-  generateWhen() {
-    this.promptService.generateWhen();
+  generateGenre() {
+    this.promptService.generateGenre();
   }
 
   generateTrope() {
