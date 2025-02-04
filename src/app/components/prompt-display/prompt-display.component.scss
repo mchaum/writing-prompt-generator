@@ -1,11 +1,90 @@
 .prompt-container {
     border: 1px solid #ccc;
-    padding: 20px;
-    min-height: 100px;
-    margin-top: 20px;
+    min-height: 150px;
+    margin: 50px 20%;
     background: #f9f9f9;
+    padding: 25px 40px 15px 40px;
+    font-size: 14px;
+    font-family: "Press Start 2P", system-ui;
+    border: 0;
+    box-shadow: 0px 5px #3a2f50, 0px -5px #3a2f50, 5px 0px #3a2f50, -5px 0px #3a2f50, 0px 10px #00000038, 5px 5px #00000038, -5px 5px #00000038, inset 0px 5px #ffffff36;
+    cursor: pointer;
 
     p {
         font-family: "Press Start 2P", system-ui;
+        margin-bottom: 1rem;
+        color: #3a2f50;
+    }
+}
+
+.spiral {
+    color: #fff;
+    background-color: black;
+    border: 0;
+    padding: 1px;
+    width: 20px;
+    height: 5px;
+    box-shadow: 0px 1px black, 0px -1px black, 1px 0px black, -1px 0px black, 0px 5px rgba(0, 0, 0, 0.2196078431), 1px 1px rgba(0, 0, 0, 0.2196078431), -1px 1px rgba(0, 0, 0, 0.2196078431), inset 0px 1px rgba(255, 255, 255, 0.2117647059);
+    position: absolute;
+    left: 20%;
+    transform: translateX(-60%);
+
+}
+
+.s1 {
+    top: 7%;
+}
+
+.s2 {
+    top: 27%;
+
+}
+
+.s3 {
+    top: 47%;
+
+}
+
+.s4 {
+    top: 67%;
+
+}
+
+.s5 {
+    top: 87%;
+
+}
+
+.notepad {
+    position: relative;
+}
+
+.reset {
+    color: #fff;
+    background-color: #fdd6ba;
+    padding: 15px 40px 15px 40px;
+    font-size: 14px;
+    font-family: "Press Start 2P", system-ui;
+    border: 0;
+    box-shadow: 0px 5px #e09666, 0px -5px #e09666, 5px 0px #e09666, -5px 0px #e09666, 0px 10px #00000038, 5px 5px #00000038, -5px 5px #00000038, inset 0px 5px #ffffff36;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+.reset:active {
+    transform: translateY(5px);
+    box-shadow: 0px 5px #eab897, 0px -5px #eab897, 5px 0px #eab897, -5px 0px #eab897, inset 0px 5px #eab897;
+}
+
+@media (max-width : 768px) {
+    .prompt-container {
+        margin: 50px 10%;
+        min-height: 270px;
+    }
+
+    .spiral {
+        left: 10%;
+    transform: translateX(-60%);
     }
 }

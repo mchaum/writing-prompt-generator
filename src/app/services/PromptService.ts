@@ -105,7 +105,16 @@ export class PromptService {
     });
   }
   
-  
+  resetPrompt() {
+    this.prompt = {
+      who: '',
+      where: '',
+      genre: '',
+      trope: '',
+      event: ''
+    };
+    this.updatePrompt();
+  }  
 
   private updatePrompt() {
     console.log('Updated prompt:', this.prompt);

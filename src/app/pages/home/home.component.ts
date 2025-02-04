@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { ButtonGroupComponent } from 'src/app/components/button-group/button-group.component';
 import { HeaderComponent } from 'src/app/components/header/header.component';
 import { PromptDisplayComponent } from 'src/app/components/prompt-display/prompt-display.component';

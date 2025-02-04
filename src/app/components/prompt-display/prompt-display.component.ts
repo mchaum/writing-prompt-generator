@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
+import { PromptService } from 'src/app/services/PromptService';
 
 @Component({
   selector: 'app-prompt-display',
@@ -12,5 +13,10 @@ import { Component, Input } from '@angular/core';
 })
 export class PromptDisplayComponent {
   @Input() prompt: any = {};
-}
+  constructor(private promptService: PromptService) {}
 
+  resetAll() {
+    this.promptService.resetPrompt();
+  }
+  
+}

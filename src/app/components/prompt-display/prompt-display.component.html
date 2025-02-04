@@ -1,8 +1,15 @@
-<div class="prompt-container">
-    <p>{{ prompt.who ? 'The story includes ' + prompt.who + '.' : ''  }}</p>
+<div class="notepad">
+  <div class="prompt-container">
+    <p>{{ prompt.who ? 'The story includes ' + prompt.who + '.' : '' }}</p>
     <p>{{ prompt.where ? 'The story is set ' + prompt.where + '.' : '' }}</p>
     <p>{{ prompt.genre ? 'The genre is ' + prompt.genre + '.' : '' }}</p>
-    <p>{{ prompt.trope ? 'The trope is ' + prompt.trope + '.' : ''  }}</p>
-    <p>{{ prompt.event ? 'The event includes ' + prompt.event + '.' : ''  }}</p>
+    <p>{{ prompt.trope ? 'The trope is ' + prompt.trope + '.' : '' }}</p>
+    <p>{{ prompt.event ? 'The event includes ' + prompt.event + '.' : '' }}</p>
   </div>
-  
+  <div class="spiral s1"></div>
+  <div class="spiral s2"></div>
+  <div class="spiral s3"></div>
+  <div class="spiral s4 "></div>
+  <div class="spiral s5"></div>
+</div>
+<button class="reset" (click)="resetAll()">Reset All</button>
